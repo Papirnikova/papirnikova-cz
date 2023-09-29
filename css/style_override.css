@@ -1,0 +1,15 @@
+.hover-opacity:hover {
+    opacity: 0.7;
+  }
+
+.hover-underline:hover {
+    text-decoration: underline;
+  }
+
+.contact-form label{
+    padding-left: 2rem;
+}
+
+.portfolio-item .lead {
+  font-size: 1rem;
+} 
