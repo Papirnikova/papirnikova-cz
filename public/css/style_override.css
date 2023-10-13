@@ -10,18 +10,15 @@
     text-decoration: underline;
 }
 
-.contact-form {
-    .form-control {
-        font-size: 1rem !important;
-        padding: 0;
-        margin: 0;
-        padding-left: 1rem;
-    }
+.contact-form .form-control {
+    font-size: 1rem !important;
+    margin: 0;
+    padding: 0 0 0 1rem;
+}
 
-    input::placeholder {
-        opacity: 0.5;
-        font-size: 1rem !important;
-    }
+.contact-form input::placeholder {
+    opacity: 0.5;
+    font-size: 1rem;
 }
 
 .contact-form label {
@@ -42,10 +39,8 @@
     gap: 1rem;
 }
 
-.portfolio-item {
-    a {
-        text-decoration: none;
-    }
+.portfolio-item a {
+    text-decoration: none;
 }
 
 .radius-round {
