@@ -1,73 +1,73 @@
 .hover-opacity:hover {
     opacity: 0.7;
-  }
+}
 
-  .hover-underline-inverse:hover {
+.hover-underline-inverse:hover {
     text-decoration: none;
-  }
+}
 
 .hover-underline:hover {
     text-decoration: underline;
-  }
-
-.contact-form {
-  .form-control {
-    font-size: 1rem!important;
-    padding: 0;
-    margin: 0;
-    padding-left: 1rem;
-  }
- 
-  input::placeholder {
-    opacity: 0.5;
-    font-size: 1rem!important;
-  }
 }
 
-.contact-form label{
+.contact-form {
+    .form-control {
+        font-size: 1rem !important;
+        padding: 0;
+        margin: 0;
+        padding-left: 1rem;
+    }
+
+    input::placeholder {
+        opacity: 0.5;
+        font-size: 1rem !important;
+    }
+}
+
+.contact-form label {
     padding-left: 2rem;
 }
 
 .portfolio-item .lead {
-  font-size: 1rem;
+    font-size: 1rem;
 }
 
 .bg-image {
-  background-repeat: no-repeat;
- background-size: cover;
- resize: both;
+    background-repeat: no-repeat;
+    background-size: cover;
+    resize: both;
 }
 
 .portfolio-list {
-  gap: 1rem;
+    gap: 1rem;
 }
 
 .portfolio-item {
-  a {
-    text-decoration: none;
-  }
+    a {
+        text-decoration: none;
+    }
 }
 
 .radius-round {
-  border-radius: 999px!important;
+    border-radius: 999px !important;
 }
 
 .justify-space-evenly {
-  justify-content: space-evenly;
+    justify-content: space-evenly;
 }
 
 .justify-space-between {
-  justify-content: space-between;
+    justify-content: space-between;
 }
 
 .justify-flex-start {
-  justify-content: flex-start;
+    justify-content: flex-start;
 }
 
 .justify-flex-end {
-  justify-content: flex-end;
+    justify-content: flex-end;
 }
 
 .text-bold {
-  font-weight: 700;
+    font-weight: 700;
 }
