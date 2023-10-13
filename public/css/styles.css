@@ -66,10 +66,12 @@
     --bs-body-bg: #fff;
 }
 
+/*
 @font-face {
     font-family: "RobotoCustom";
     src: url(../font/Roboto-Regular.ttf) format("truetype");
 }
+*/
 
 *,
 *::before,
