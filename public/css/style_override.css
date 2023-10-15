@@ -1,3 +1,8 @@
+:root {
+    --bs-font-sans-serif:  Ubuntu, Arial, sans-serif;
+    --bs-body-font-size: 0.8rem;
+}
+
 .hover-opacity:hover {
     opacity: 0.7;
 }
