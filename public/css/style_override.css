@@ -10,19 +10,22 @@
     text-decoration: underline;
 }
 
-.contact-form .form-control {
-    font-size: 1rem !important;
+.contact-form input.form-control, .form-floating textarea.form-control {
+    height: 4.5rem;
+    font-size: 1rem;
     margin: 0;
     padding: 0 0 0 1rem;
 }
 
-.contact-form input::placeholder {
-    opacity: 0.5;
+.contact-form label {
+    padding-left: 2rem;
     font-size: 1rem;
 }
 
-.contact-form label {
-    padding-left: 2rem;
+.form-floating > .form-control:focus ~ label,
+.form-floating > .form-control:not(:placeholder-shown) ~ label,
+.form-floating > .form-select ~ label {
+    transform: scale(0.8) translateY(-0.5rem) translateX(0rem);
 }
 
 .portfolio-item .lead {
@@ -68,5 +71,5 @@
 }
 
 footer {
-    text-size: 0.875rem;
+    font-size: 0.875rem;
 }
