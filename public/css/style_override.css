@@ -66,3 +66,7 @@
 .text-bold {
     font-weight: 700;
 }
+
+footer {
+    text-size: 0.875rem;
+}
