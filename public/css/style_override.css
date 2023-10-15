@@ -1,6 +1,6 @@
 :root {
     --bs-font-sans-serif:  Ubuntu, Arial, sans-serif;
-    --bs-body-font-size: 0.8rem;
+    --bs-body-font-size: 1.1rem;
 }
 
 .hover-opacity:hover {
@@ -33,7 +33,7 @@
     transform: scale(0.8) translateY(-0.5rem) translateX(0rem);
 }
 
-.portfolio-item .lead {
+.portfolio-item {
     font-size: 0.8rem;
 }
 
@@ -73,8 +73,4 @@
 
 .text-bold {
     font-weight: 700;
-}
-
-footer {
-    font-size: 0.875rem;
 }
